@@ -28,8 +28,19 @@
 },
 "Project1": {
     "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
+    "Desc": "This web crawling project includes the creation of a program that is designed to 
+    explore and navigate websites through a provided link, with the purpose of gathering 
+    information from them. This program functions by scanning numerous web pages and 
+    links that can be found on the initial website. From here it will create a beautiful 
+    graph displaying the nodes which resemble the pages found. As well as the edges 
+    that are the links found from the website, which show the connection between each node
+    node and how they interconnected through each website. As seen through the graph all of 
+    the edges have the same weight, and we did not use weight as the depth. Once the graph 
+    is created, the program will continue to calculate the closeness centrality of each 
+    node(webpage) which is the proximity of node based on the shortest path to the rest of 
+    the nodes in the graph. With this web crawling program and its visial represention, one
+    can gain a deeper understanding of a websites interconnectivity as well as its organization.",
+    "GitHubRepo": "https://github.com/csc3430-winter2024/web-crawler-tearm-and-graph-2",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
