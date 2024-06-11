@@ -10,8 +10,8 @@
   "EMail": "nankabirwas@spu.edu",
   "Phone": "(253) 329-6828",
   "Portfolio": "https://shukrajaliya.github.io/github.io",
-  "LinkedIn": "https://www.linkedin.com/in/shukra-nankabirwa",
-  "GitHub": "https://github.com/ShukraJaliya"
+  "LinkedIn": "https://github.com",
+  "GitHub": "https://github.com"
 },
 "Experience": {
   "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
@@ -40,7 +40,7 @@
     node(webpage) which is the proximity of node based on the shortest path to the rest of 
     the nodes in the graph. With this web crawling program and its visial represention, one
     can gain a deeper understanding of a websites interconnectivity as well as its organization.",
-    "GitHubRepo": "https://github.com/csc3430-winter2024/web-crawler-tearm-and-graph-2",
+    "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
