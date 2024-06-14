@@ -8,7 +8,6 @@
 },
 "Contact": {
   "EMail": "nankabirwas@spu.edu",
-  "Phone": "(253) 329-6828",
   "Portfolio": "https://github.com/ShukraJaliya/github.io",
   "LinkedIn": "https://www.linkedin.com/in/shukra-nankabirwa/",
   "GitHub": "https://www.github.com"
@@ -31,7 +30,6 @@
     "Desc": "This project involves developing a web crawling program that navigates websites from a provided link to gather information and create a visual graph of the site’s structure. The graph consists of nodes representing web pages and edges representing links, all with uniform weight. The program calculates the closeness centrality of each node, indicating the proximity of each page based on the shortest paths to other pages. This visualization offers insights into the interconnectivity and organization of the website, helping to understand its structure and link relationships more deeply..",
     "GitHubRepo": "https://github.com/csc3430-winter2024/web-crawler-tearm-and-graph-2",
     "MainImage": "P1Main.png",
-   // "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
     "Title": "Interesting Project 2",
