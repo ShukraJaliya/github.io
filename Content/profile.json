@@ -23,8 +23,8 @@
   "Employment": "Seattle Pacific University",
   "Role": "Computer Science Lab Assistant",
   "EmploymentText": "Use this to add some narrative to your employment section",
-  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
-  "SkillsText": "Use this to add some narrative to your skills section",
+  "Skills": ["C++", " JavaScript", " Python", " CSS"," HTML"],
+  "SkillsText": "I have 3 years of proficiency in C++, where I've developed a strong foundation in programming principles and problem-solving. Additionally, I have independently learned Python, further expanding my skill set and enhancing my versatility as a developer.",
   "Resume": "Shukra_resume.pdf"  
 },
 "Project1": {
