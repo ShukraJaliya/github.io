@@ -15,14 +15,14 @@
   "GitHub": "https://www.github.com"
 },
 "Experience": {
-  "ExperienceText": "I am a 3rd year STEM student majoring in Computer Science and Honors Liberal Arts, with a minor in Data Analytics. My goal is to pursue a career in software development and cybersecurity. I am driven by a deep passion for continuous learning and I am eager to gain knowledge and insights from experienced professionals in the field of software engineering.",
+  "ExperienceText": "My goal is to pursue a career in software development and cybersecurity. I am driven by a deep passion for continuous learning and I am eager to gain knowledge and insights from experienced professionals in the field of software engineering.",
   "School": "Seattle Pacific University",
   "Major": "Computer Science",
   "Graduation": "June 2025",
-  "EducationText": "Use this to add some narrative to your education section",
-  "Employment": "Seattle Pacific University",
-  "Role": "Computer Science Lab Assistant",
-  "EmploymentText": "Use this to add some narrative to your employment section",
+  "EducationText": "I am a 3rd year STEM student majoring in Computer Science and Honors Liberal Arts, with a minor in Data Analytics. ",
+  "Employment": "AVELA - A Vision for Engineering Literacy and Access, UW",
+  "Role": "Instructor",
+  "EmploymentText": "Initiated and led the first VR course in the AVELA program, teaching students to develop VR apps and create AR images. Partnered with Africatown to educate 100 underrepresented minority students in Python, C++, C#, AI, and machine learning. Provided engaging and immersive computer literacy lessons to foster a deep understanding of computing concepts.",
   "Skills": ["C++", " JavaScript", " Python", " CSS"," HTML"],
   "SkillsText": "I have 3 years of proficiency in C++, where I've developed a strong foundation in programming principles and problem-solving. Additionally, I have independently learned Python, further expanding my skill set and enhancing my versatility as a developer.",
   "Resume": "Shukra_resume.pdf"  
