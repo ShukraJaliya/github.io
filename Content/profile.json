@@ -1,36 +1,67 @@
 {
-"About": {
-  "Name": "Shukra Jaliya Nankabirwa",
-  "Currently": "Computer Science Student",
-  "Headshot": "portraite.png",
-  "Thumbnail": "logo.webp",
-  "AboutText": "Hi, I am Shukra Jaliya. I am a passionate computer science student with a keen interest in software development and programming. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of computer science, with a particular focus on C++ programming.<br><br>I enjoy tackling challenging programming projects and I thrive in collaborative environments where I can contribute my expertise and learn from my peers.<br><br>Beyond the classroom, I actively engage in extracurricular activities related to computer science, including hackathons, coding competitions, and open-source contributions. I believe in the importance of continuous learning and seek out opportunities to explore new technologies and methodologies."
-},
+  "About": {
+    "Name": "Shukra Jaliya Nankabirwa",
+    "Currently": "Software Engineer • ML + XR • Researcher & Mentor",
+    "Headshot": "portraite.png",
+    "Thumbnail": "logo.webp",
+    "AboutText": "I’m a software engineer and researcher focused on local-first AI, XR learning experiences, and interactive 3D systems. I build end-to-end tools—from MLX fine-tuned models with RAG pipelines to VR/AR curricula and digital twins—and I teach and mentor students through hands-on, project-based STEM experiences."
+  },
 
-"Contact": {
-  "EMail": "nankabirwas@spu.edu",
-  "Phone": "444-44-4444",
-  "Portfolio": "https://github.com/ShukraJaliya/github.io",
-  "LinkedIn": "https://www.linkedin.com/in/shukra-nankabirwa/",
-  "GitHub": "https://www.github.com"
-},
-"Experience": {
-  "ExperienceText": "My goal is to pursue a career in software development and cybersecurity. I am driven by a deep passion for continuous learning and I am eager to gain knowledge and insights from experienced professionals in the field of software engineering.",
-  "School": "Seattle Pacific University",
-  "Major": "Computer Science",
-  "Graduation": "June 2025",
-  "EducationText": "I am a 3rd year STEM student majoring in Computer Science and Honors Liberal Arts, with a minor in Data Analytics. ",
-  "Employment": "AVELA - A Vision for Engineering Literacy and Access, UW",
-  "Role": "Instructor",
-  "EmploymentText": "Initiated and led the first VR course in the AVELA program, teaching students to develop VR apps and create AR images. Partnered with Africatown to educate 100 underrepresented minority students in Python, C++, C#, AI, and machine learning. Provided engaging and immersive computer literacy lessons to foster a deep understanding of computing concepts.",
-  "Skills": ["C++", " JavaScript", " Python", " CSS"," HTML"],
-  "SkillsText": "I have 3 years of proficiency in C++, where I've developed a strong foundation in programming principles and problem-solving. Additionally, I have independently learned Python, further expanding my skill set and enhancing my versatility as a developer.",
-  "Resume": "Shukra_resume.pdf"  
-},
-"Project1": {
-    "Title": "Project 1 - Webcrawler",
-    "Desc": "This project involves developing a web crawling program that navigates websites from a provided link to gather information and create a visual graph of the site’s structure. The graph consists of nodes representing web pages and edges representing links, all with uniform weight. The program calculates the closeness centrality of each node, indicating the proximity of each page based on the shortest paths to other pages. This visualization offers insights into the interconnectivity and organization of the website, helping to understand its structure and link relationships more deeply..",
-    "MainImage": "P1Main.png"
-  
+  "Contact": {
+    "EMail": "shukrajaliya@gmail.com",
+    "Phone": "",
+    "Portfolio": "https://shukrajaliya.github.io/github.io/",
+    "LinkedIn": "https://www.linkedin.com/in/shukra-nankabirwa/",
+    "GitHub": "https://github.com/shukrajaliya"
+  },
+
+  "Experience": {
+    "ExperienceText": "Below is a summary of my education, work experience, leadership, and technical skills.",
+
+    "School": "Seattle Pacific University",
+    "Major": "B.S. Computer Science & Engineering • B.A. Honors Liberal Arts • Minor: Data Analytics",
+    "Graduation": "Sep 2021 – Jun 2025",
+    "EducationText": "Relevant coursework includes Data Structures, Algorithms, Computer Architecture, Systems Design, Database Management, Cyber Security, and Data Analytics.",
+
+    "Employment": "Machine Learning Feature Engineer",
+    "Role": "AVELA, University of Washington — Seattle, WA",
+    "EmploymentText": "Jun 2025 – Present<br>• Developed and fine-tuned course-specific language models using Apple’s MLX framework.<br>• Built BlueComputer, a local-first AI tutor integrating fine-tuning, RAG, and an on/off-topic classifier to keep responses aligned to course content.<br>• Applied NLP techniques to build and evaluate course-specific language models and response quality.<br>• Optimized inference and prompt flow to achieve average response times under 8 seconds in a SwiftUI app.<br><br><strong>Additional Roles</strong><br><br><strong>Extended Reality Technical Lead &amp; Mentor — AVELA, UW (Jun 2024 – Present)</strong><br>• Initiated the first VR course in the AVELA program, teaching ~30 students to build VR apps and create AR assets.<br>• Developed a 40-hour XR curriculum; increased student STEM engagement by 25% using a fleet of 30 Quest 3 headsets.<br>• Built AR workflows using Polycam + WebAR and glTF asset pipelines.<br><br><strong>Software Engineer — Sablesync (Nov 2023 – Present)</strong><br>• Developed full-stack systems for end-to-end 3D room reconstruction and digital twin creation.<br>• Implemented interactive spatial environments replicating real-world architectural designs with high fidelity.<br><br><strong>Technical Mixed Reality Instructor — SPEEA ACE (Dec 2024 – Feb 2025)</strong><br>• Led hands-on workshops on VR/AR applications for mental wellness and developed a mixed reality mindfulness program.<br><br><strong>Undergraduate Research Assistant — UW ECE (Jun 2024 – Sep 2024)</strong><br>• Conducted research on meta-optics for endoscopes under Professor Karl Bohringer and presented CV/image-processing algorithms.<br><br><strong>Reboot Scholar — Reboot Representation (Sep 2023 – Jun 2025)</strong><br>• Selected for cohort-based professional development, mentorship, and leadership programming.",
+
+    "Skills": "<strong>Programming Languages:</strong> C++ (4 years), Python, R, SQL, JavaScript (1 year), Kotlin, Swift<br><strong>Frameworks &amp; Tools:</strong> Apple MLX, SwiftUI, Jetpack Compose, ARCore, ROS, WebAR, Polycam, GitHub, Docker, Jira<br><strong>Focus Areas:</strong> Machine Learning, NLP, Local-first AI systems, XR Development, 3D/Digital Twins<br><strong>Certificates:</strong> Snap Inc. Augmented Reality Extern (Paragon One), Reboot Scholar (Reboot Representation)",
+    "SkillsText": "I build end-to-end systems that combine machine learning, human-centered design, and immersive XR tools—shipping reliable experiences with attention to performance, usability, and real-world deployment constraints.",
+
+    "Resume": "Shukra_resume.pdf"
+  },
+
+  "Project1": {
+    "Title": "BlueComputer — Local-First Course-Specific AI Tutor",
+    "Desc": "Built a local-first AI tutor that answers only course-relevant questions for K–12 learning activities. Fine-tuned models with Apple’s MLX framework and integrated RAG plus an on/off-topic classifier to keep responses aligned to lessons. Optimized inference and prompt flow to reach sub-8s average response time in a SwiftUI app.",
+    "MainImage": "projects/bluecomputer.jpg",
+    "GitHubRepo": "https://github.com/shukrajaliya",
+    "DetailImages": []
+  },
+
+  "Project2": {
+    "Title": "AVELA XR Curriculum — VR + AR Learning Experiences",
+    "Desc": "Designed and delivered a 40-hour XR curriculum to teach students VR app development and AR content creation. Deployed a fleet of 30 Meta Quest 3 headsets and built learning workflows using Polycam + WebAR and glTF asset pipelines to support interactive experiences.",
+    "MainImage": "projects/xr-curriculum.jpg",
+    "GitHubRepo": "https://github.com/shukrajaliya",
+    "DetailImages": []
+  },
+
+  "Project3": {
+    "Title": "Digital Twins — Interactive 3D Room Reconstruction",
+    "Desc": "Developed full-stack pipelines for 3D room reconstruction and digital twin creation. Translated physical spaces into immersive digital environments by integrating geometry, materials, lighting, and real-time behaviors, prioritizing fidelity and performance.",
+    "MainImage": "projects/digital-twins.jpg",
+    "GitHubRepo": "https://github.com/shukrajaliya",
+    "DetailImages": []
+  },
+
+  "Project4": {
+    "Title": "HMobile — Robot Control Mobile App (Capstone)",
+    "Desc": "Built a mobile UI for a robot control interface using Kotlin and Jetpack Compose. Collaborated with a 12-member team on hardware–software integration, created Git-based documentation, and designed accessible UI theme colors informed by usability research.",
+    "MainImage": "projects/hmobile.jpg",
+    "GitHubRepo": "https://github.com/shukrajaliya",
+    "DetailImages": []
   }
 }
