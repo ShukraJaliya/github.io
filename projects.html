@@ -1,102 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="./Styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Shukra Jaliya Nankabirwa</title>
+  <link rel="stylesheet" href="./Styles/style.css">
 </head>
+
 <body>
-    <div>
-        <nav id="menu">
-            <div>
-                <div class="self-photo">
-                    <a href="index.html">
-                        <img id="pfThumbnail" src="" alt="Mini Me">
-                    </a>
-                </div>
-                <ul class="menu-list">
-                    <a href="index.html">
-                        <li>About</li>
-                    </a>
-                    <a href="projects.html">
-                        <li>Projects</li>
-                    </a>
-                    <a href="experience.html">
-                        <li>Experience</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="icons">
-                <a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/In-White-40@2x.png">
-                </a>
-                <a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/github-mark-white.png" alt="">
-                </a>
-            </div>
-        </nav>
+  <div>
+    <nav id="menu">
+      <div>
+        <div class="self-photo">
+          <a href="index.html">
+            <img id="pfThumbnail" src="./Images/profile-thumbnail.jpg" alt="Mini Me">
+          </a>
+        </div>
+
+        <ul class="menu-list">
+          <a href="index.html"><li>About</li></a>
+          <a href="projects.html"><li>Projects</li></a>
+          <a href="experience.html"><li>Experience</li></a>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <a id="pfLinkedIn" href="https://linkedin.com/in/shukra-nankabirwa" target="_blank" rel="noopener noreferrer">
+          <img src="./Icons/In-White-40@2x.png" alt="LinkedIn">
+        </a>
+        <a id="pfGitHub" href="https://github.com/shukrajaliya" target="_blank" rel="noopener noreferrer">
+          <img src="./Icons/github-mark-white.png" alt="GitHub">
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="main-section">
+    <div class="page-title">
+      <h1>Projects</h1>
     </div>
-    <!-- This section is unique to the projects area -->
-    <div class="main-section">
-        <div class="page-title">
-            <h1>Projects</h1>
-        </div>
-        <div id="project1" class="project">
-            <div class="project-image">
-                <img id="pfProject1Img" src="" alt="Project 1">
-                <button id="openProject1" value="1">See More...</button>
-            </div>
-            <div class="project-detail">
-                <h2 id="pfProject1Title"></h2>
-                <p id="pfProject1Desc"></p>
-                <a href="" target="_blank" id="pfProject1Repo">GitHub Repo</a>
-            </div>
-        </div>
-        <div id="project2" class="project">
-            <div class="project-image">
-                <img id="pfProject2Img" src="" alt="Project 2">
-                <button id="openProject2" value="2">See More...</button>
-            </div>
-            <div class="project-detail">
-                <h2 id="pfProject2Title"></h2>
-                <p id="pfProject2Desc"></p>
-                <a href="" target="_blank" id="pfProject2Repo">GitHub Repo</a>
-            </div>
-        </div>
-        <div id="project3" class="project">
-            <div class="project-image">
-                <img id="pfProject3Img" src="" alt="Project 3">
-                <button id="openProject3" value="3">See More...</button>
-            </div>
-            <div class="project-detail">
-                <h2 id="pfProject3Title"></h2>
-                <p id="pfProject3Desc"></p>
-                <a href="" target="_blank" id="pfProject3Repo">GitHub Repo</a>
-            </div>
-        </div>
-        <div id="project4" class="project">
-            <div class="project-image">
-                <img id="pfProject4Img" src="" alt="Project 4">
-                <button id="openProject4" value="4">See More...</button>
-            </div>
-            <div class="project-detail">
-                <h2 id="pfProject4Title"></h2>
-                <p id="pfProject4Desc"></p>
-                <a href="" target="_blank" id="pfProject4Repo">GitHub Repo</a>
-            </div>
-        </div>
-        <!-- Image Carousel -->
-        <div id="modalPage">
-            <div class="carousel">
-                <p id="XOut">&times;</p>
-                <div id="imgList">
-                </div>
-                <a id="prev">&#10094;</a>
-                <a id="next">&#10095;</a>
-            </div>
-        </div>        
+
+    <!-- PROJECT 1: BLUECOMPUTER -->
+    <div id="project1" class="project">
+      <div class="project-image">
+        <img id="pfProject1Img" src="./Images/projects/bluecomputer.jpg" alt="BlueComputer">
+        <button id="openProject1" value="1">See More...</button>
+      </div>
+      <div class="project-detail">
+        <h2 id="pfProject1Title">BlueComputer — Local-First Course-Specific AI Tutor</h2>
+        <p id="pfProject1Desc">
+          A local-first AI tutor that answers only course-relevant questions for K–12 learning activities.
+          Fine-tuned language models with Apple’s MLX framework and integrated Retrieval-Augmented Generation (RAG)
+          plus an on/off-topic classifier to keep responses aligned with the lesson. Optimized prompt flow and inference
+          to achieve sub-8s average response times in an end-to-end SwiftUI experience.
+          <br><br>
+          <strong>Focus:</strong> MLX fine-tuning, NLP evaluation, RAG, routing/classification, SwiftUI product integration.
+        </p>
+        <a href="https://github.com/shukrajaliya" target="_blank" id="pfProject1Repo">GitHub Repo</a>
+      </div>
     </div>
-    <script type="module" src="./Scripts/GetProjects.js"></script>
+
+    <!-- PROJECT 2: XR CURRICULUM / WEBAR -->
+    <div id="project2" class="project">
+      <div class="project-image">
+        <img id="pfProject2Img" src="./Images/projects/xr-curriculum.jpg" alt="XR Curriculum">
+        <button id="openProject2" value="2">See More...</button>
+      </div>
+      <div class="project-detail">
+        <h2 id="pfProject2Title">AVELA XR Curriculum — VR + AR Learning Experiences</h2>
+        <p id="pfProject2Desc">
+          Design and deliver a 40-hour XR curriculum to teach students how to build VR apps and create AR assets.
+          Deployed a fleet of 30 Meta Quest 3 headsets and built learning workflows using Polycam + WebAR to support
+          interactive AR experiences. Developed glTF/asset pipelines and interactive components to bring experiences
+          from concept to deployment.
+          <br><br>
+          <strong>Focus:</strong> XR instruction, Quest deployment, Polycam/WebAR pipelines, glTF assets, interactive XR content.
+        </p>
+        <a href="https://github.com/shukrajaliya" target="_blank" id="pfProject2Repo">GitHub Repo</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3: DIGITAL TWINS / 3D ROOMS -->
+    <div id="project3" class="project">
+      <div class="project-image">
+        <img id="pfProject3Img" src="./Images/projects/digital-twins.jpg" alt="Digital Twins">
+        <button id="openProject3" value="3">See More...</button>
+      </div>
+      <div class="project-detail">
+        <h2 id="pfProject3Title">Digital Twins — Interactive 3D Room Reconstruction</h2>
+        <p id="pfProject3Desc">
+        3D room reconstruction and digital twin creation.
+          Translated real-world spaces into immersive digital environments by integrating geometry, materials,
+          lighting, and interactive behaviors. Focused on performance, fidelity, and accurate replication of
+          architectural designs for real use cases.
+          <br><br>
+          <strong>Focus:</strong> 3D scene construction, spatial interaction, optimization/performance, digital twin workflows.
+        </p>
+        <a href="https://github.com/shukrajaliya" target="_blank" id="pfProject3Repo">GitHub Repo</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 4: HMOBILE CAPSTONE -->
+    <div id="project4" class="project">
+      <div class="project-image">
+        <img id="pfProject4Img" src="./Images/projects/hmobile.jpg" alt="HMobile Robot Control App">
+        <button id="openProject4" value="4">See More...</button>
+      </div>
+      <div class="project-detail">
+        <h2 id="pfProject4Title">HMobile — Robot Control Mobile App (Capstone)</h2>
+        <p id="pfProject4Desc">
+          A functioning mobile UI for a robot control interface using Kotlin and Jetpack Compose.
+          Collaborated with a 12-person team to support hardware–software integration and testing.
+          Created documentation (Git workflows, module specs, and system diagrams) to streamline teamwork and delivery,
+          and designed accessible UI colors informed by usability research.
+          <br><br>
+          <strong>Focus:</strong> Mobile UI engineering, Jetpack Compose, hardware–software integration, usability-driven design.
+        </p>
+        <a href="https://github.com/shukrajaliya" target="_blank" id="pfProject4Repo">GitHub Repo</a>
+      </div>
+    </div>
+
+    <!-- Image Carousel / Modal (kept as-is) -->
+    <div id="modalPage">
+      <div class="carousel">
+        <p id="XOut">&times;</p>
+        <div id="imgList"></div>
+        <a id="prev">&#10094;</a>
+        <a id="next">&#10095;</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./Scripts/GetProjects.js"></script>
 </body>
 </html>

@@ -1,86 +1,210 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience - Shukra Jaliya Nankabirwa</title>
-    <link rel="stylesheet" href="./Styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience - Shukra Jaliya Nankabirwa</title>
+  <link rel="stylesheet" href="./Styles/style.css">
 </head>
+
 <body>
-    <div>
-        <nav id="menu">
-            <div>
-                <div class="self-photo">
-                    <a href="index.html">
-                        <img id="pfThumbnail" src="./Images/profile-thumbnail.jpg" alt="Mini Me">
-                    </a>
-                </div>
-                <ul class="menu-list">
-                    <a href="index.html">
-                        <li>About</li>
-                    </a>
-                    <a href="projects.html">
-                        <li>Projects</li>
-                    </a>
-                    <a href="experience.html">
-                        <li>Experience</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="icons">
-                <a id="pfLinkedIn" href="https://linkedin.com/in/shukra-nankabirwa" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/In-White-40@2x.png" alt="LinkedIn">
-                </a>
-                <a id="pfGitHub" href="https://github.com/shukrajaliya" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/github-mark-white.png" alt="GitHub">
-                </a>
-            </div>
-        </nav>
+  <div>
+    <nav id="menu">
+      <div>
+        <div class="self-photo">
+          <a href="index.html">
+            <img id="pfThumbnail" src="./Images/profile-thumbnail.jpg" alt="Mini Me">
+          </a>
+        </div>
+
+        <ul class="menu-list">
+          <a href="index.html"><li>About</li></a>
+          <a href="projects.html"><li>Projects</li></a>
+          <a href="experience.html"><li>Experience</li></a>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <a id="pfLinkedIn" href="https://linkedin.com/in/shukra-nankabirwa" target="_blank" rel="noopener noreferrer">
+          <img src="./Icons/In-White-40@2x.png" alt="LinkedIn">
+        </a>
+        <a id="pfGitHub" href="https://github.com/shukrajaliya" target="_blank" rel="noopener noreferrer">
+          <img src="./Icons/github-mark-white.png" alt="GitHub">
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="main-section">
+    <div class="page-title">
+      <h1>Experience</h1>
     </div>
-    <div class="main-section">
-        <div class="page-title">
-            <h1>Experience</h1>
-        </div>
-        <div id="expResume" class="experience-section">
-            <button id="pfResume">Open Resume...</button>
-        </div>
-        <div class="experience-section" id="experience-info">
-            <p id="pfExpText">Below is a summary of my education, work experience, and technical skills.</p>
-        </div>
-        <div id="expEdu" class="experience-section">
-            <h2>Education</h2>
-            <p id="pfSchool">Seattle Pacific University</p>
-            <p id="pfMajor">Bachelor of Science in Computer Science and Engineering</p>
-            <p id="pfGraduation">Expected Graduation: June 2025</p>
-            <p id="pfEducationText">
-                Relevant coursework includes Data Structures, Algorithms, Computer Architecture, Systems Design, Database Management, and Cyber Security.
-            </p>
-        </div>
-        <div id="expEmp" class="experience-section">
-            <h2>Work Experience</h2>
-            <p id="pfEmployment">Research Assistant</p>
-            <p id="pfRole">Department of Electrical and Computer Engineering, University of Washington</p>
-            <p id="pfEmploymentText">
-                Conducted research on meta-optics for endoscopes under Professor Karl Bohringer. Collaborated with postdoctoral scholars and graduate students to develop educational materials, present algorithms, and understand advanced optical technologies. (June 2024 - September 2024)
-            </p>
-            <p id="pfEmployment">Extended Reality Technical Lead</p>
-            <p id="pfRole">AVELA, University of Washington</p>
-            <p id="pfEmploymentText">
-                Developed a 40-hour XR curriculum to teach students VR and AR application development. Implemented tools like Polycam and WebAR for augmented GTLF files. Increased STEM engagement among students by 25%. (June 2024 - Present)
-            </p>
-        </div>
-        <div id="expSkills" class="experience-section">
-            <h2>Technical Skills</h2>
-            <p id="pfSkills">
-                Programming Languages: C++ (4 years), Python, SQL, Scheme, Aframe, JavaScript (1 year) <br>
-                Tools & Frameworks: CMake, WebAR, Polycam <br>
-                Technical Focus: Image Processing, Computer Vision, Robotics, XR Development
-            </p>
-            <p id="pfSkillsText">
-                I have a strong foundation in programming and problem-solving with hands-on experience in robotics, meta-optics, and extended reality applications.
-            </p>
-        </div>
+
+    <div id="expResume" class="experience-section">
+      <button id="pfResume">Open Resume...</button>
     </div>
-    <script type="module" src="./Scripts/GetExperience.js"></script>
+
+    <div class="experience-section" id="experience-info">
+      <p id="pfExpText">
+        Below is a summary of my education, work experience, leadership, and technical skills.
+      </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div id="expEdu" class="experience-section">
+      <h2>Education</h2>
+
+      <p id="pfSchool">Seattle Pacific University</p>
+      <p id="pfMajor">
+        B.S. Computer Science &amp; Engineering<br>
+        B.A. Honors Liberal Arts<br>
+        Minor: Data Analytics
+      </p>
+      <p id="pfGraduation">Sep 2021 – Jun 2025</p>
+      <p id="pfEducationText">
+        Relevant coursework includes Data Structures, Algorithms, Computer Architecture, Systems Design,
+        Database Management, Cyber Security, and Data Analytics.
+      </p>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div id="expEmp" class="experience-section">
+      <h2>Work Experience</h2>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Machine Learning Feature Engineer</h3>
+        <p class="exp-org">AVELA, University of Washington — Seattle, WA</p>
+        <p class="exp-dates">Jun 2025 – Present</p>
+        <ul class="exp-bullets">
+          <li>Developed and fine-tuned course-specific language models using Apple’s MLX framework.</li>
+          <li>Applied NLP techniques to build and evaluate course-aligned educational LLM behavior.</li>
+          <li>Architected a unified local-first pipeline combining fine-tuned models, RAG, and an on/off-topic classifier in a SwiftUI app.</li>
+          <li>Optimized inference and prompt flow to achieve average response times under 8 seconds.</li>
+          <li>Designed local-first AI systems integrating MLX fine-tuning, retrieval pipelines, and SwiftUI interfaces.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Extended Reality Technical Lead &amp; Mentor</h3>
+        <p class="exp-org">AVELA, University of Washington — Seattle, WA</p>
+        <p class="exp-dates">Jun 2024 – Present</p>
+        <ul class="exp-bullets">
+          <li>Initiated the first VR course in the AVELA program, teaching ~30 students to build VR apps and create AR assets.</li>
+          <li>Developed a 40-hour XR curriculum and increased student STEM engagement by 25% using a fleet of 30 Meta Quest 3 headsets.</li>
+          <li>Built and deployed AR learning experiences using Polycam + WebAR workflows and QR-based interactions.</li>
+          <li>Developed augmented glTF asset workflows and C++ components for rendering prefabs and interactive XR content.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Software Engineer</h3>
+        <p class="exp-org">Sablesync — Seattle, WA</p>
+        <p class="exp-dates">Nov 2023 – Present</p>
+        <ul class="exp-bullets">
+          <li>Developed full-stack systems for end-to-end 3D room reconstruction and digital twin creation.</li>
+          <li>Implemented interactive spatial environments that replicate real-world architectural designs with high visual and functional fidelity.</li>
+          <li>Integrated geometry, materials, lighting, and real-time behaviors to bring static 3D designs to life.</li>
+          <li>Collaborated with design and customers to ensure environments match real-world spaces and user experience goals.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Product Owner / Software Engineer (Capstone) — HMobile Robot Control App</h3>
+        <p class="exp-org">Seattle Pacific University — Seattle, WA</p>
+        <p class="exp-dates">Sep 2024 – Jun 2025</p>
+        <ul class="exp-bullets">
+          <li>Developed a mobile UI for a robot control interface using Kotlin and Jetpack Compose in Android Studio.</li>
+          <li>Collaborated with a 12-member team to support hardware–software integration and end-to-end testing.</li>
+          <li>Set up documentation with Git version control, module specs, and system diagrams to streamline collaboration.</li>
+          <li>Designed accessible UI theme colors informed by usability research across diverse user needs.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Technical Mixed Reality Instructor</h3>
+        <p class="exp-org">SPEEA Aerospace Career Enhancement (ACE) — Tukwila, WA</p>
+        <p class="exp-dates">Dec 2024 – Feb 2025</p>
+        <ul class="exp-bullets">
+          <li>Led hands-on workshops on VR/AR applications for mental wellness and health.</li>
+          <li>Developed a mixed reality mindfulness program using modern XR tools and workflows.</li>
+          <li>Guided participants in applying immersive technology to support stress reduction and well-being.</li>
+          <li>Delivered multi-week training sessions to foster community engagement with emerging XR technologies.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Undergraduate Research Assistant</h3>
+        <p class="exp-org">Department of Electrical &amp; Computer Engineering, University of Washington — Seattle, WA</p>
+        <p class="exp-dates">Jun 2024 – Sep 2024</p>
+        <ul class="exp-bullets">
+          <li>Conducted research on meta-optics for endoscopes under Professor Karl Bohringer.</li>
+          <li>Collaborated with postdoctoral scholars and graduate students in the Bohringer lab.</li>
+          <li>Built educational materials to explain meta-optics and endoscope imaging to non-experts.</li>
+          <li>Presented image processing and computer vision algorithms used for meta-optics imaging workflows.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- LEADERSHIP (Optional but strongly recommended) -->
+    <div id="expLeadership" class="experience-section">
+      <h2>Leadership</h2>
+
+      <div class="exp-item">
+        <h3 class="exp-title">President &amp; Co-founder, NSBE SPU Chapter</h3>
+        <p class="exp-org">National Society of Black Engineers — Seattle, WA</p>
+        <p class="exp-dates">Nov 2024 – Jun 2025</p>
+        <ul class="exp-bullets">
+          <li>Founded and led the NSBE SPU Chapter alongside a team of 5 to build community and support for Black engineers.</li>
+          <li>Raised nearly $5,000 in sponsorship funds to support chapter growth and student programming.</li>
+          <li>Collaborated with companies (Microsoft, Blue Origin, Boeing) to organize workshops and career panels.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3 class="exp-title">Vice President, NSBE SPU Chapter</h3>
+        <p class="exp-org">National Society of Black Engineers — Seattle, WA</p>
+        <p class="exp-dates">Sep 2023 – Jul 2024</p>
+        <ul class="exp-bullets">
+          <li>Helped establish the chapter in Region VI by organizing underrepresented students and building partnerships.</li>
+          <li>Represented NSBE SPU in campus and off-campus organizations to grow state-wide connections.</li>
+          <li>Supported executive board operations and oversaw chapter meetings and engineering info sessions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div id="expSkills" class="experience-section">
+      <h2>Technical Skills</h2>
+
+      <p id="pfSkills">
+        <strong>Programming Languages:</strong> C++ (4 years), Python, R, SQL, JavaScript (1 year), Kotlin, Swift<br>
+        <strong>Frameworks &amp; Tools:</strong> Apple MLX, SwiftUI, Jetpack Compose, ARCore, ROS, WebAR, Polycam, GitHub, Docker, Jira<br>
+        <strong>Focus Areas:</strong> Machine Learning, NLP, Local-first AI systems, XR Development, 3D/Digital Twins
+      </p>
+
+      <p id="pfSkillsText">
+        I build end-to-end systems that combine machine learning, human-centered design, and immersive XR tools—shipping
+        reliable experiences with attention to performance, usability, and real-world deployment constraints.
+      </p>
+    </div>
+  </div>
+
+  <hr class="exp-divider">
+
+<h3 class="exp-subtitle">Certificates</h3>
+<ul id="pfCertificates" class="exp-bullets">
+  <li>
+    <strong>Snap Inc. — Augmented Reality Extern</strong> (Paragon One) — Mar 2024 – Apr 2024
+    <a class="exp-link" href="https://www.credential.net/b4b5418e-02d9-499c-aa54-9541a62c7790#acc.fZEeNOcd" target="_blank" rel="noopener noreferrer">View</a>
+  </li>
+  <li>
+    <strong>Reboot Representation — Reboot Scholar</strong> — Sep 2023 – Jun 2025
+    <a class="exp-link" href="https://rebootrepresentation.org/yearbook/shukra-nankabirwa/" target="_blank" rel="noopener noreferrer">View</a>
+  </li>
+
+</ul>
+
+
+  <script type="module" src="./Scripts/GetExperience.js"></script>
 </body>
 </html>
