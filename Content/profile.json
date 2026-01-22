@@ -4,7 +4,7 @@
     "Currently": "Software Engineer • ML + XR • Researcher & Mentor",
     "Headshot": "portraite.png",
     "Thumbnail": "logo.webp",
-    "AboutText": "I’m a software engineer and researcher focused on local-first AI, XR learning experiences, and interactive 3D systems. I build end-to-end tools—from MLX fine-tuned models with RAG pipelines to VR/AR curricula and digital twins—and I teach and mentor students through hands-on, project-based STEM experiences."
+    "AboutText": "I’m a software engineer, researcher, and mentor building systems that combine local-first AI, XR learning, and interactive 3D environments. On the AI side, I develop and fine-tune course-specific language models using Apple’s MLX framework and integrate them into production-style pipelines with retrieval (RAG) and on/off-topic routing so the assistant stays aligned to lesson content. On the XR side, I design curriculum and mentor students through hands-on VR and AR projects, supporting everything from headset deployment to asset workflows and interactive experience design. I also work on digital twin and 3D room reconstruction pipelines that turn physical spaces into immersive, high-fidelity environments with accurate geometry, materials, lighting, and behavior. I care about building tools that are fast, reliable, and genuinely usable, and I enjoy teaching because it pushes me to make complex ideas clear, practical, and empowering."
   },
 
   "Contact": {
