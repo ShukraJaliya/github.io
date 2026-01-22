@@ -36,7 +36,7 @@
   "Project1": {
     "Title": "BlueComputer — Local-First Course-Specific AI Tutor",
     "Desc": "Built a local-first AI tutor that answers only course-relevant questions for K–12 learning activities. Fine-tuned models with Apple’s MLX framework and integrated RAG plus an on/off-topic classifier to keep responses aligned to lessons. Optimized inference and prompt flow to reach sub-8s average response time in a SwiftUI app.",
-    "MainImage": "projects/bluecomputer.jpg",
+    "MainImage": "projects/bluecomputer.png",
     "GitHubRepo": "https://github.com/shukrajaliya",
     "DetailImages": []
   },
@@ -52,7 +52,7 @@
   "Project3": {
     "Title": "Digital Twins — Interactive 3D Room Reconstruction",
     "Desc": "Developed full-stack pipelines for 3D room reconstruction and digital twin creation. Translated physical spaces into immersive digital environments by integrating geometry, materials, lighting, and real-time behaviors, prioritizing fidelity and performance.",
-    "MainImage": "projects/digital-twins.jpg",
+    "MainImage": "projects/digital-twins.png",
     "GitHubRepo": "https://github.com/shukrajaliya",
     "DetailImages": []
   },
@@ -60,7 +60,7 @@
   "Project4": {
     "Title": "HMobile — Robot Control Mobile App (Capstone)",
     "Desc": "Built a mobile UI for a robot control interface using Kotlin and Jetpack Compose. Collaborated with a 12-member team on hardware–software integration, created Git-based documentation, and designed accessible UI theme colors informed by usability research.",
-    "MainImage": "projects/hmobile.jpg",
+    "MainImage": "projects/hmobile.png",
     "GitHubRepo": "https://github.com/shukrajaliya",
     "DetailImages": []
   }
